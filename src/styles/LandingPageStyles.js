@@ -14,7 +14,12 @@ export const styles = {
     },
     button: {
         marginRight: "2rem",
-        color: "#d1cbcb"
+        color: "#d1cbcb",
+        " &:hover ": {
+            color: "#c9c1c1",
+            textShadow: "0.3px 0.3px #d4d2d2",
+            textDecoration: "underline"
+        }
     },
     titleBtn: {
         marginRight: "1250px",

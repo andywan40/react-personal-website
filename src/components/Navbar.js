@@ -1,34 +1,19 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import { styles } from '../styles/NavbarStyles';
 
 function Navbar(props) {
     const {classes} = props;
     return (
-        <div>
-            <AppBar position="static">
-                <Toolbar>
-                    <IconButton
-                    edge="start"
-                    className={classes.menuButton}
-                    color="inherit"
-                    aria-label="menu"
-                    >
-                    <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                    News
-                    </Typography>
-                    <Button color="inherit">Login</Button>
-                </Toolbar>
-            </AppBar>
-        </div>
+            <div className={classes.top}>
+                <Button className={classes.titleBtn}><Link to="/" className={classes.link}>Andrew Wan</Link></Button>
+                <Button className={classes.button}><Link to="/about" className={classes.link}>About</Link></Button>
+                <Button className={classes.button}><Link to="/projects" className={classes.link}>Projects</Link></Button>
+                <Button className={classes.button}><Link to="/resume" className={classes.link}>Resume</Link></Button>
+                <Button className={classes.button}><Link to="/contact" className={classes.link}>Contact</Link></Button>
+            </div>
     )
 }
 
