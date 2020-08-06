@@ -4,13 +4,15 @@ import Button from '@material-ui/core/Button';
 import Navbar from './Navbar';
 import { styles } from '../styles/AboutStyles';
 
-function About() {
+function About(props) {
+    const {classes} = props;
     return (
-        <div>
-            <h1>This is the about page</h1>
+        <div className={classes.root}>
             <Navbar />
+            <h1>This is the about page</h1>
+            
         </div>
     )
 }
 
-export default About;
+export default withStyles(styles)(About);

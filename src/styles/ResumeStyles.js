@@ -1,4 +1,4 @@
-import Background from '../images/tokyoTower.jpg';
+import Background from '../images/palmTrees.jpg';
 export const styles = {
     root: {
         width: "100vw",
