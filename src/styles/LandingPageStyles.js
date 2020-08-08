@@ -2,7 +2,7 @@ import Background from '../images/landingPageImage.jpg';
 export const styles = {
     root: {
         width: "100vw",
-        height: "100vh",
+        height: "98vh",
         backgroundImage: `url(${Background})`,
         backgroundSize: "100%",
         backgroundRepeat: "no-repeat"
