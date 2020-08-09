@@ -4,8 +4,8 @@ export const styles = {
         width: "100vw",
         height: "98vh",
         backgroundImage: `url(${Background})`,
-        backgroundSize: "100%",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100% 150vh",
     },
     top: {
         display: "flex",
