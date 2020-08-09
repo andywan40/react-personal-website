@@ -4,7 +4,7 @@ export const styles = {
         width: "100vw",
         height: "98vh",
         backgroundImage: `url(${Background})`,
-        backgroundSize: "100% 100%",
+        backgroundSize: "100% 130vh",
         backgroundRepeat: "no-repeat"
     }
    

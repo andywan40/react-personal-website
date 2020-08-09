@@ -1,5 +1,4 @@
 import sizes from './sizes';
-import { white } from 'color-name';
 export const styles = {
   top: {
     //   display: "flex",
