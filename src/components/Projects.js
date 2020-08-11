@@ -8,7 +8,7 @@ import { styles } from '../styles/ProjectsStyles';
 function Projects(props) {
     const {classes} = props;
     return (
-        <div>
+        <div className={classes.all}>
         <div className={classes.root}>
             <Navbar />
             <h1>This is the projects page</h1>

@@ -7,7 +7,7 @@ export const styles = {
         position: "relative",
         backgroundImage: `url(${Background})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "100% 150vh",
+        backgroundSize: "100% 150vh"
     },
     top: {
         display: "flex",
@@ -34,16 +34,16 @@ export const styles = {
         color: "#ccc2c2",
         fontFamily: "'Permanent Marker', cursive",
         [sizes.down("lgg")]: {
-            fontSize: "3rem"
-          },
-          [sizes.down("mdd")]: {
             fontSize: "2.6rem"
           },
-          [sizes.down("md")]: {
+          [sizes.down("mdd")]: {
             fontSize: "2.1rem"
           },
+          [sizes.down("md")]: {
+            fontSize: "1.8rem"
+          },
         [sizes.down("smm")]: {
-            fontSize: "2em"
+            fontSize: "1.7em"
           },
           [sizes.down("xss")]: {
             fontSize: "1.5em"

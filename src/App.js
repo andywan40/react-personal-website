@@ -7,7 +7,7 @@ import LandingPage from './pages/LandingPage';
 import About from './components/About';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
 
 class App extends Component{
   constructor(props){

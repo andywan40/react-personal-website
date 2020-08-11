@@ -13,7 +13,7 @@ function LandingPage(props) {
                 
                     <Navbar />
                     <Grid container className={classes.gridContainer1}>
-                        <Grid item xs={2} md={3} lg={4} xl={6}className={classes.gridItem1}>
+                        <Grid item xs={2} md={3} lg={4} xl={6} className={classes.gridItem1}>
                             <h1 className={classes.desc1}>Hi, I'm Andrew Wan!</h1>
                         </Grid>
                     </Grid>
@@ -23,7 +23,7 @@ function LandingPage(props) {
                         </Grid>  
                     </Grid>
                     <Grid container className={classes.gridContainer3}>
-                        <Grid item xs={2} md={3} lg={4} xl={6}className={classes.gridItem3}>
+                        <Grid item xs={2} md={3} lg={4} xl={6} className={classes.gridItem3}>
                             <h1 className={classes.desc3}>Welcome!</h1>
                         </Grid>
                     </Grid>

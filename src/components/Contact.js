@@ -8,7 +8,7 @@ import { styles } from '../styles/ContactStyles';
 function Contact(props) {
     const {classes} = props;
     return (
-        <div>
+        <div className={classes.all}>
         <div className={classes.root}>
             <Navbar />
             <h1>This is the Contact page</h1>

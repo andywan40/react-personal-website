@@ -1,7 +1,7 @@
 export const styles = {
     root: {
         width: "100vw",
-        height: "2vh",
+        height: "100%",
         backgroundColor: "black"
     },
     textArea: {
