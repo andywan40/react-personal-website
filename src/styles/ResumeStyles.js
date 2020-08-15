@@ -1,10 +1,10 @@
-import Background from '../images/meijiShrine.jpg';
+import Background from '../images/tokyoTower.jpg';
 export const styles = {
     root: {
         width: "100%",
         height: "98%",
         backgroundImage: `url(${Background})`,
-        backgroundSize: "100vw 120vh",
+        backgroundSize: "130vw 140vh",
         backgroundRepeat: "no-repeat"
     },
     all:{
