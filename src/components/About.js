@@ -1,9 +1,10 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { styles } from '../styles/AboutStyles';
+import aboutMe from '../images/aboutMe.jpg';
 
 function About(props) {
     const {classes} = props;
@@ -12,14 +13,22 @@ function About(props) {
             <div className={classes.root}>
                 <Navbar />
                 <div className={classes.desc}>
-                    <h3>about me</h3>
-                    <h4>
-                        I am a full stack web developer based in Taipei,Taiwan and plan on moving to the Bay Area 
-                        in the US. 
-                        I am passionate about creating products that help improve the lives of many people. 
-                        I also enjoy playing basketball, working out and drinking with friends. My favorite artists 
-                        right now are Rod Wave, Polo G, and the Kid Laroi.
-                    </h4>
+                    <Grid container >
+                        <Grid item lg={6} >
+                            <h3 className={classes.title}>about me</h3>
+                            <h4 className={classes.text}>
+                                I am a full stack web developer based in Taipei, Taiwan.<br></br>
+                                I am passionate about creating products that help improve the lives of many people. 
+                                I also enjoy playing basketball, working out and drinking with friends. My favorite artists 
+                                right now are Rod Wave, Polo G, and the Kid Laroi.
+                            </h4>
+                        </Grid>
+                        <Grid item lg={6}>
+                            <img src={aboutMe} className={classes.img}/>
+                        </Grid>
+                        
+                            
+                    </Grid>
                 </div>
             </div>
             <Footer/>

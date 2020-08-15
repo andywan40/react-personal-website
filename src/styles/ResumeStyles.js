@@ -10,6 +10,27 @@ export const styles = {
     all:{
         width: "100vw",
         height: "100vh"
+    },
+    container: {
+        marginTop: "3.5rem"
+    },
+    grid: {
+        display: "flex",
+        justifyContent: 'center',
+        marginTop: "1.5rem"
+        
+    },
+    card: {
+        width: "75%",
+        maxWidth: 425,
+        marginLeft: "3rem"
+    },
+    media: {
+        height: 200,
+    },
+    link: {
+        textDecoration: "none",
+        color: "rgb(63, 81, 181)"
     }
    
 };

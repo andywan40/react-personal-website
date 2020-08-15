@@ -28,6 +28,7 @@ export const styles = {
   },
   link:{
       textDecoration: "none",
+      fontWeight: 500,
       color: "#ccc2c2",
       " &:hover ": {
         color: "#c9c1c1",
