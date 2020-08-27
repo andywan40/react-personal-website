@@ -1,6 +1,10 @@
 import Background from '../images/landingPageImage.jpg';
 import sizes from './sizes';
 export const styles = {
+    all: {
+        width: "100vw",
+        height: "100vh"
+    },
     root: {
         width: "100vw",
         height: "98vh",

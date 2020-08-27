@@ -5,7 +5,8 @@ export const styles = {
         height: "98%",
         backgroundImage: `url(${Background})`,
         backgroundSize: "100vw 120vh",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
+        overflow: "scroll"
     },
     all:{
         width: "100vw",

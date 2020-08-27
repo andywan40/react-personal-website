@@ -1,29 +1,36 @@
 import Background from '../images/tokyoTower.jpg';
+import sizes from './sizes';
 export const styles = {
     root: {
         width: "100%",
         height: "98%",
         backgroundImage: `url(${Background})`,
         backgroundSize: "130vw 140vh",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
+        overflow: "scroll"
     },
     all:{
         width: "100vw",
         height: "100vh"
     },
     container: {
-        marginTop: "3.5rem"
+        marginTop: "1rem",
+        display: "flex",
+        justifyContent: "center"
     },
     grid: {
         display: "flex",
-        justifyContent: 'center',
-        marginTop: "1.5rem"
+        justifyContent: 'space-around',
+        marginTop: "1.5rem",
+        marginBottom: "1.5rem"
         
     },
     card: {
-        width: "75%",
-        maxWidth: 425,
-        marginLeft: "3rem"
+        width: "90%",
+        marginLeft: 0,
+    },
+    cardContent: {
+        height: "100px"
     },
     media: {
         height: 200,

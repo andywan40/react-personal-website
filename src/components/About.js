@@ -23,7 +23,7 @@ function About(props) {
                                 right now are Rod Wave, Polo G, and the Kid Laroi.
                             </h4>
                         </Grid>
-                        <Grid item lg={6}>
+                        <Grid item lg={6} >
                             <img src={aboutMe} className={classes.img}/>
                         </Grid>
                         

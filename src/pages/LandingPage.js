@@ -8,7 +8,7 @@ import { styles } from '../styles/LandingPageStyles';
 function LandingPage(props) {
     const { classes } = props;
     return (
-        <div>
+        <div className={classes.all}>
             <div className={classes.root}>
                 
                     <Navbar />

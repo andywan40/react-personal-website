@@ -58,7 +58,7 @@ function Contact(props) {
                             label="Message"
                             multiline
                             rows={10}
-                            defaultValue="Contact us......"
+                            defaultValue="Contact me...."
                             variant="outlined"
                         />
                         <Button type="submit" className={classes.button} color="primary" variant="contained" size="large">Submit</Button>
