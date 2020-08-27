@@ -36,6 +36,3 @@ class App extends Component{
 
 export default App;
 
-
-// fix about, project, resume page
-// make them responsive
