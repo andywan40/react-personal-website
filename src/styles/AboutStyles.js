@@ -36,8 +36,8 @@ export const styles = {
         color: "black",
         textShadow: "2px 2px 2px #ccc2c2",
         fontSize: "1.5rem",
-        fontFamily: "'Special Elite', cursive",
-        lineHeight: "1.75rem",
+        fontFamily: "'Cinzel', serif",
+        lineHeight: "1.85rem",
         [sizes.down("lg")]: {
             fontSize: "1.4rem"
         },

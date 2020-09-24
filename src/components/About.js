@@ -19,8 +19,8 @@ function About(props) {
                             <h4 className={classes.text}>
                                 I am a full stack web developer based in Taipei, Taiwan.<br></br>
                                 I am passionate about creating products that help improve the lives of many people. 
-                                I also enjoy playing basketball, working out and drinking with friends. My favorite artists 
-                                right now are Rod Wave, Polo G, and the Kid Laroi.
+                                I also enjoy playing basketball, working out and singing. My favorite artists 
+                                right now are Rod Wave, Polo G, and Post Malone.
                             </h4>
                         </Grid>
                         <Grid item lg={6} >
