@@ -15,11 +15,11 @@ function About(props) {
                 <div className={classes.desc}>
                     <Grid container >
                         <Grid item lg={6} >
-                            <h3 className={classes.title}>about me</h3>
+                            <h3 className={classes.title}>About Me</h3>
                             <h4 className={classes.text}>
                                 I am a full stack web developer based in Taipei, Taiwan.<br></br>
                                 I am passionate about creating products that help improve the lives of many people. 
-                                I also enjoy playing basketball, working out and singing. My favorite artists 
+                                I also enjoy playing basketball, working out, and travelling. My favorite artists 
                                 right now are Rod Wave, Polo G, and Post Malone.
                             </h4>
                         </Grid>

@@ -35,14 +35,14 @@ export const styles = {
         marginLeft : "5rem",
         color: "black",
         textShadow: "2px 2px 2px #ccc2c2",
-        fontSize: "1.5rem",
+        fontSize: "1.2rem",
         fontFamily: "'Cinzel', serif",
         lineHeight: "1.85rem",
         [sizes.down("lg")]: {
-            fontSize: "1.4rem"
+            fontSize: "1.15rem"
         },
         [sizes.down("md")]: {
-            fontSize: "1.2rem"
+            fontSize: "1.05rem"
         },
         [sizes.down("sm")]: {
             fontSize: "1rem"
