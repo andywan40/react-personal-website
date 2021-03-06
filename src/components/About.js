@@ -24,7 +24,7 @@ function About(props) {
                             </h4>
                         </Grid>
                         <Grid item lg={6} >
-                            <img src={aboutMe} className={classes.img}/>
+                            <img src={aboutMe} className={classes.img} alt="my pic"/>
                         </Grid>
                         
                             

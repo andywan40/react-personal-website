@@ -1,5 +1,4 @@
 import Background from '../images/tokyoTower.jpg';
-import sizes from './sizes';
 export const styles = {
     root: {
         width: "100%",

@@ -13,43 +13,43 @@ import Footer from './Footer';
 import { styles } from '../styles/ProjectsStyles';
 
 function Projects(props) {
-    const {classes} = props;
+    const { classes } = props;
     return (
         <div className={classes.all}>
-        <div className={classes.root}>
-            <Navbar />
-            <Grid container className={classes.container}>
-                <Grid item sm={10} md={6} lg={4} className={classes.grid}>
-                <Card className={classes.card}>
-                    <CardActionArea>
-                        <CardMedia
-                        className={classes.media}
-                        image="https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                        title="Wannabuy"
-                        />
-                        <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            WANNABUY
+            <div className={classes.root}>
+                <Navbar />
+                <Grid container className={classes.container}>
+                    <Grid item sm={10} md={6} lg={4} className={classes.grid}>
+                        <Card className={classes.card}>
+                            <CardActionArea>
+                                <CardMedia
+                                    className={classes.media}
+                                    image="https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                    title="Wannabuy"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        WANNABUY
                         </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            <ul>
-                                <li> Designed for online shoppers to better keep track of interested items</li>
-                                <li> Front end built with HTML, CSS, JavaSCript, JQUery, BootStrap</li>
-                                <li>Back end built with Node.js, Express, Mongoose and connected to MongoDB</li>
-                            </ul>
-                        </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small" color="primary">
-                            <a className={classes.link} href="https://powerful-journey-37111.herokuapp.com/" target="_blank">Go to Site</a>
-                        </Button>
-                    </CardActions>
-                </Card>
+                                    <Typography variant="body2" color="textSecondary" component="p">
+                                        <ul>
+                                            <li> Designed for online shoppers to better keep track of interested items</li>
+                                            <li> Front end built with HTML, CSS, JavaSCript, JQUery, BootStrap</li>
+                                            <li>Back end built with Node.js, Express, Mongoose and connected to MongoDB</li>
+                                        </ul>
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size="small" color="primary">
+                                    <a className={classes.link} href="https://powerful-journey-37111.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go to Site</a>
+                                </Button>
+                            </CardActions>
+                        </Card>
+                    </Grid>
                 </Grid>
-            </Grid>
-        </div>
-        <Footer/>
+            </div>
+            <Footer />
         </div>
     )
 }

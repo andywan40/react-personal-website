@@ -66,9 +66,9 @@ function Contact(props) {
                     </form>
                     </div>
                     <div className={classes.iconDiv}>
-                        <a href="https://www.linkedin.com/in/andrew-wan-537870172/" target="_blank"><LinkedInIcon className={classes.icon}/></a>
-                        <a href="https://github.com/andywan40" target="_blank"><GitHubIcon className={classes.icon}/></a>
-                        <a href="https://www.instagram.com/and__wan/" target="_blank"><InstagramIcon className={classes.icon}/></a>
+                        <a href="https://www.linkedin.com/in/andrew-wan-537870172/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className={classes.icon}/></a>
+                        <a href="https://github.com/andywan40" target="_blank" rel="noopener noreferrer"><GitHubIcon className={classes.icon}/></a>
+                        <a href="https://www.instagram.com/and__wan/" target="_blank" rel="noopener noreferrer"><InstagramIcon className={classes.icon}/></a>
                     </div>
                 </Grid>
             </Grid>
