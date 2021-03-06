@@ -40,14 +40,12 @@ export const styles = {
         marginRight: "15rem",
         marginBottom: 0,
         fontFamily: "'Permanent Marker', cursive",
-        fontSize: "1.5rem",
+        fontSize: "1.5rem !important",
         color: "#ccc2c2",
          [sizes.down("sp")]: {
              fontSize: "1.2rem"
          }
         
-    }
-   
-   
+    }  
 };
 

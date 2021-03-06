@@ -15,7 +15,7 @@ function Navbar(props){
             <div className={classes.top}>
                 <Grid container direction="row" alignItems="center" spacing={3}>
                     <Grid item lg={6} xs={4} > <Button className={classes.titleBtn}><Link to="/react-personal-website" className={classes.link}><img alt="logo" src={Logo} className={classes.logo}/></Link></Button> </Grid>
-                    <Grid container lg={6} xs={8}  justify="flex-end" >
+                    <Grid container item lg={6} xs={8}  justify="flex-end" >
                         <Grid item sm={2} > <Button className={classes.button}><Link to="/react-personal-website/about" className={classes.link}>About</Link></Button> </Grid>
                         <Grid item sm={2} > <Button className={classes.button}><Link to="/react-personal-website/projects" className={classes.link}>Projects</Link></Button> </Grid>
                         <Grid item sm={2} > <Button className={classes.button}><Link to="/react-personal-website/resume" className={classes.link}>Resume</Link></Button> </Grid>

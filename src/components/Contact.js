@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
@@ -17,6 +18,13 @@ import Footer from './Footer';
 import { styles } from '../styles/ContactStyles';
 
 function Contact(props) {
+    // const [data, setData] = useState(null);
+    // //componentDidMount
+    // useEffect( () => {
+    //     axios.get("http://localhost:3001/api").then( res => {
+    //         console.log(res);
+    //     });
+    // }, []); 
     const {classes} = props;
     return (
         <div className={classes.all}>
