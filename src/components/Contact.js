@@ -21,13 +21,6 @@ function Contact(props) {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    // const [data, setData] = useState(null);
-    // //componentDidMount
-    // useEffect( () => {
-    //     axios.get("http://localhost:3001/api").then( res => {
-    //         console.log(res);
-    //     });
-    // }, []); 
     const {classes} = props;
     const handleSubmit = (e) => {
         e.preventDefault();
