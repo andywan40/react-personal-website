@@ -14,8 +14,8 @@ function LandingPage(props) {
                     <Navbar />
                     <Grid container direction="row" justify="center" className={classes.grid}>
                         <Grid item xs={3} md={4} lg={6} className={classes.item}>
-                            <h5>Welcome to my website !</h5>
-                            <p>I'm Andrew Wan and I'm a full stack web developer</p>
+                            <h1 className={classes.title}>Hi, I'm Andrew Wan</h1>
+                            <p>Full Stack Developer</p>
                         </Grid>
                     </Grid>
                     

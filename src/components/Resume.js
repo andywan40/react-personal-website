@@ -56,11 +56,19 @@ function Resume(props) {
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
                                 <ul>
-                                    <li> Software Engineer Intern at Asgard System <br></br> Taipei, Taiwan / June, 2020 - Sep, 2020</li>
-                                    <li> Main focus was to create a robust front end structure with React and Redux that fits well with existing Spring Boot projects and create reusable components for future use</li>
-                                    <li> Designed and implemented new project structure and architecture</li>
-                                    <li> Developed internal web applications in Spring Boot for banks and insurance companies</li>
+                                    <li><strong>Software Engineer at Asgard System <br></br> Taipei, Taiwan / Oct, 2020 - Current</strong></li>
+                                    <li> Designed a new and robust front end structure with Vue and Vuex and developed reusable UI
+                                        components for future use</li>
+                                    <li> Led frontend projects of internal web applications for banks and insurance companies</li>
                                     <li> Added new API endpoints to improve UI experience and overall app functionality</li>
+                                    <li> Developed reusable functions and integrated them with existing Javascript libraries to streamline
+                                        the frontend development process</li>
+                                </ul>
+                                <ul>
+                                    <li><strong>Software Engineer Intern at Asgard System <br></br> Taipei, Taiwan / June, 2020 - Sep, 2020</strong></li>
+                                    <li> Main focus was to create a robust front end structure with React and Redux that fits well with 
+                                        existing Spring Boot projects and create reusable components for future use</li>
+                                    <li>Designed and implemented new project structure and architecture</li>
                                 </ul>
                             </Typography>
                             </CardContent>
@@ -82,8 +90,9 @@ function Resume(props) {
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
                                 <ul>
-                                    <li> <strong>Languages: </strong><br></br>HTML, CSS, Javascript, Python, Java, English, Mandarin</li>
-                                    <li> <strong>Technologies:</strong> <br></br>React, Node.js, JQuery, Redux, MongoDB, Git, Express.js, BootStrap, Material UI, Visual Studio Code, Eclipse</li>
+                                    <li> <strong>Languages: </strong><br></br>Javascript, HTML, CSS, Python, Java, SQL</li>
+                                    <li> <strong>Technologies:</strong><br></br>React, Vue, jQuery, Node.js, Express.js, Redux, Vuex, MySQL, MongoDB, BootStrap, Material UI, Git, Visual Studio Code, Eclipse</li>
+                                    <li> <strong>Spoken Languages: </strong><br></br>English, Mandarin</li>
                                     
                                 </ul>
                             </Typography>

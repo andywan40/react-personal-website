@@ -46,6 +46,15 @@ export const styles = {
              fontSize: "1.2rem"
          }
         
-    }  
+    },
+    title: {
+        fontSize: "3rem !important",
+        [sizes.down("sp")]: {
+            fontSize: "2.3rem !important"
+        },
+        [sizes.down("sm")]:{
+            fontSize: "1.5rem !important"
+        }
+    } 
 };
 
