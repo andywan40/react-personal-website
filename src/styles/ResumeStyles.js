@@ -27,12 +27,17 @@ export const styles = {
     card: {
         width: "90%",
         marginLeft: 0,
+        height: "75vh"
     },
     cardContent: {
-        height: "100px"
+        height: "50vh",
+        overflow: "scroll",
+    },
+    cardTypo: {
+        marginBottom: "5rem"
     },
     media: {
-        height: 200,
+        height: "25vh",
     },
     link: {
         textDecoration: "none",

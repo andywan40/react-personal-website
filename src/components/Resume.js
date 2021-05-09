@@ -19,7 +19,7 @@ function Resume(props) {
         <div className={classes.root}>
             <Navbar />
             <Grid container className={classes.container}>
-                <Grid item xs={10} md={4} lg={4} className={classes.grid}>
+                <Grid item xs={10} sm={8} md={3} className={classes.grid}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardMedia
@@ -31,7 +31,7 @@ function Resume(props) {
                             <Typography gutterBottom variant="h5" component="h2">
                                 Education
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p" className={classes.cardTypo}>
                                 <ul>
                                     <li> University of California, San Diego</li>
                                     <li> Graduated June 2019</li>
@@ -42,7 +42,7 @@ function Resume(props) {
                         </CardActionArea>
                     </Card>
                 </Grid>
-                <Grid item xs={10} md={4} lg={4} className={classes.grid}>
+                <Grid item xs={10} sm={8} md={3} className={classes.grid}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardMedia
@@ -50,11 +50,11 @@ function Resume(props) {
                             image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                             title="Experience"
                             />
-                            <CardContent>
+                            <CardContent className={classes.cardContent}>
                             <Typography gutterBottom variant="h5" component="h2">
                                 Experience
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p" className={classes.cardTypo}>
                                 <ul>
                                     <li><strong>Software Engineer at Asgard System <br></br> Taipei, Taiwan / Oct, 2020 - Current</strong></li>
                                     <li> Designed a new and robust front end structure with Vue and Vuex and developed reusable UI
@@ -76,7 +76,7 @@ function Resume(props) {
                         
                     </Card>
                 </Grid>
-                <Grid item xs={10} md={4} lg={4} className={classes.grid}>
+                <Grid item xs={10} sm={8} md={3} className={classes.grid}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardMedia
@@ -84,11 +84,11 @@ function Resume(props) {
                             image="https://images.unsplash.com/photo-1509770293056-483fcbd13e30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                             title="Skills"
                             />
-                            <CardContent>
+                            <CardContent className={classes.cardContent}>
                             <Typography gutterBottom variant="h5" component="h2">
                                 Skills
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p" className={classes.cardTypo}>
                                 <ul>
                                     <li> <strong>Languages: </strong><br></br>Javascript, HTML, CSS, Python, Java, SQL</li>
                                     <li> <strong>Technologies:</strong><br></br>React, Vue, jQuery, Node.js, Express.js, Redux, Vuex, MySQL, MongoDB, BootStrap, Material UI, Git, Visual Studio Code, Eclipse</li>

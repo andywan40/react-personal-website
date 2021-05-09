@@ -38,7 +38,7 @@ export const styles = {
     },
     item: {
         marginRight: "15rem",
-        marginBottom: 0,
+        marginBottom: "0",
         fontFamily: "'Permanent Marker', cursive",
         fontSize: "1.5rem !important",
         color: "#ccc2c2",
@@ -48,6 +48,8 @@ export const styles = {
         
     },
     title: {
+        marginTop: "0",
+        marginBottom: "0",
         fontSize: "3rem !important",
         [sizes.down("sp")]: {
             fontSize: "2.3rem !important"
@@ -55,6 +57,9 @@ export const styles = {
         [sizes.down("sm")]:{
             fontSize: "1.5rem !important"
         }
-    } 
+    },
+    desc: {
+        marginTop: "0"
+    }
 };
 
