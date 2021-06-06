@@ -25,10 +25,11 @@ function Contact(props) {
     const [message, setMessage] = useState("");
     const { classes } = props;
     const alertSuccess = () => toast.success("I will get back to you soon. Thank you ! 🦄");
-    //const alertFailure = () => toast("Something went wrong. Please try again later!");
+    const alertFailure = () => toast.error("Something went wrong. Please try again later!");
+    const showLoadingMessage = () => toast.info("Submitting....", {autoClose: false});
     const handleSubmit = (e) => {
         e.preventDefault();
-        alertSuccess();
+        showLoadingMessage();
         const infoData = {
             name,
             email,
@@ -39,11 +40,13 @@ function Contact(props) {
         setMessage("");
         const url = "https://immense-fortress-49913.herokuapp.com/submitMessage"
         axios.post(url, infoData).then(res => {
-            // if (res.data.message) {
-            //     alertSuccess();
-            // } else {
-            //     alertFailure();
-            // }
+            if (res.data.message) {
+                toast.dismiss();
+                alertSuccess();
+            } else {
+                toast.dismiss();
+                alertFailure();
+            }
         })
     }
     const handleChange = (e, setFunc) => {

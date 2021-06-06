@@ -20,8 +20,8 @@ export const styles = {
     grid: {
         display: "flex",
         justifyContent: 'space-around',
-        marginTop: "1.5rem",
-        marginBottom: "1.5rem"
+        marginTop: "2rem",
+        marginBottom: "2rem"
         
     },
     card: {
