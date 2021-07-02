@@ -1,17 +1,14 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { styles } from "../styles/ResumeStyles";
+import ResumeItems from "./ResumeItems";
+
 const resumeSections = [
   {
-    title: "Education",
+    title: "EDUCATION",
     image:
       "https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     desc: [
@@ -21,7 +18,7 @@ const resumeSections = [
     ],
   },
   {
-    title: "Experience",
+    title: "EXPERIENCE",
     image:
       "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     desc: [
@@ -62,7 +59,7 @@ const resumeSections = [
     ],
   },
   {
-    title: "Skills",
+    title: "SKILLS",
     image:
       "https://images.unsplash.com/photo-1509770293056-483fcbd13e30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     desc: [
@@ -85,67 +82,16 @@ const resumeSections = [
     ],
   },
 ];
-function Resume(props) {
-  const { classes } = props;
-  const gridItems = resumeSections.map((section) => {
-    return (
-      <Grid item xs={10} sm={8} md={3} className={classes.grid}>
-        <Card className={classes.card}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={section.image}
-              title={section.title}
-            />
-            <CardContent className={classes.cardContent}>
-              <Typography gutterBottom variant="h5" component="h2">
-                {section.title}
-              </Typography>
-              <Typography
-                variant="body2"
-                color="textSecondary"
-                component="p"
-                className={classes.cardTypo}
-              >
-                <ul>
-                  {section.desc.map((desc) => (
-                    <>
-                      <li
-                        style={
-                          desc.important
-                            ? {
-                                fontWeight: 900,
-                                marginTop: "0.5rem",
-                              }
-                            : { fontWeight: 400 }
-                        }
-                      >
-                        {desc.text}
-                        {desc.children ? (
-                          <p style={{ marginTop: 0, marginBottom: "0.5rem", fontWeight: 500 }}>
-                            {desc.children}
-                          </p>
-                        ) : (
-                          <></>
-                        )}
-                      </li>
-                    </>
-                  ))}
-                </ul>
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-        </Card>
-      </Grid>
-    );
-  });
 
+function Resume({classes}) {
   return (
     <div className={classes.all}>
       <div className={classes.root}>
         <Navbar />
         <Grid container className={classes.container}>
-          {gridItems}
+          {resumeSections.map( section => (
+            <ResumeItems section={section} key={section.title}/>
+          ))}
         </Grid>
       </div>
       <Footer />

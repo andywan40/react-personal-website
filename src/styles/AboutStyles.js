@@ -12,12 +12,23 @@ export const styles = {
         width: "100vw",
         height: "100vh"
     },
+    container: {
+        width: "70%",
+        [sizes.down("lg")]: {
+            width: "80%",
+        },
+        [sizes.down("md")]: {
+            width: "90%",
+        },
+        [sizes.down("sm")]: {
+            width: "95%",
+        }
+    },
     title: {
         marginLeft: "5rem",
-        textDecoration: "underline ",
         fontSize: "3rem",
-        fontFamily: "'Permanent Marker', cursive",
-        letterSpacing: "0.3rem",
+        fontFamily: "'Cantarell', sans-serif",
+        textTransform: "uppercase",
         [sizes.down("lg")]: {
             fontSize: "2.5rem"
         },
@@ -34,7 +45,7 @@ export const styles = {
     text: {
         marginLeft : "5rem",
         color: "black",
-        textShadow: "2px 2px 2px #ccc2c2",
+        textShadow: "1px 1px 1px #ccc2c2",
         fontSize: "1.2rem",
         fontFamily: "'Cinzel', serif",
         lineHeight: "1.85rem",
@@ -47,18 +58,9 @@ export const styles = {
         [sizes.down("sm")]: {
             fontSize: "1rem"
         }
-
     },
-    img: {
-        height: "auto",
-        marginTop: "2rem",
-        marginLeft: "7rem",
-        borderRadius: "4px",
-        maxWidth : "50%",
-        [sizes.down("pic")]: {
-            display: "none"
-        }
+    link: {
+        color: "#f58e07",
+        textShadow: "1px 1px 1px #3e4475",
     }
-    
-   
 };

@@ -15,15 +15,10 @@ export const styles = {
     bg: {
         backgroundColor: "rgba(255,255,255,0.85)"
     },
-    title:{
-        fontFamily: "'Rock Salt', cursive",
-        fontSize: "2rem",
-        marginBottom: 0
-    },
     form: {
         width: "100%",
         height: "75%",
-        textAlign: "center"
+        textAlign: "center",
     },
     formDiv: {
         display: 'flex',
@@ -33,21 +28,27 @@ export const styles = {
     },
     formControl: {
         width: "50%",
-        marginTop: "2.5rem"
+        marginTop: "2.5rem",
     },
     message: {
         width: "50%",
         marginTop: "3rem",
-        marginBottom: "2.5rem"
+        marginBottom: "2.5rem",
+        fontFamily: "'Cantarell', sans-serif",
+        textTransform: "uppercase"
     },
     label: {
-        fontSize: "1.25rem"
+        fontSize: "1.25rem",
+        fontFamily: "'Cantarell', sans-serif",
+        textTransform: "uppercase"
     },
     button: {
         marginBottom: "2rem",
         "&:hover": {
             boxShadow: "2px 2px 2px #9b9ea3"
-        }
+        },
+        fontFamily: "'Cantarell', sans-serif",
+        textTransform: "uppercase"
     },
     iconDiv: {
         display: "flex",
@@ -60,7 +61,5 @@ export const styles = {
         color: "white",
         fontSize: "2.5rem",
         marginLeft: "1rem"
-    }
-   
-   
+    }   
 };

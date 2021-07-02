@@ -16,32 +16,5 @@ export const styles = {
         marginTop: "1rem",
         display: "flex",
         justifyContent: "center"
-    },
-    grid: {
-        display: "flex",
-        justifyContent: 'space-around',
-        marginTop: "2rem",
-        marginBottom: "2rem"
-        
-    },
-    card: {
-        width: "90%",
-        marginLeft: 0,
-        height: "75vh"
-    },
-    cardContent: {
-        height: "50vh",
-        overflow: "scroll",
-    },
-    cardTypo: {
-        marginBottom: "5rem"
-    },
-    media: {
-        height: "25vh",
-    },
-    link: {
-        textDecoration: "none",
-        color: "rgb(63, 81, 181)"
-    }
-   
+    }  
 };

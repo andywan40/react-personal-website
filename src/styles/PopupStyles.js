@@ -7,17 +7,19 @@ export const styles = {
         flexDirection: "column", 
         justifyContent: "center", 
         alignItems: "center",
-        margin: "1rem"
+        padding: "2rem",
+        borderRadius: "5px",
+        backgroundColor: "#f5f2eb"
     }, 
     link:{
         textDecoration: "none",
         color: "#434547",
+        fontWeight: 500,
         " &:hover ": {
           textShadow: "0.3px 0.3px #d4d2d2",
-          fontSize: "1rem",
-          fontWeight: "600",
+          fontWeight: 800,
           textDecoration: "underline"
-      }
+        }
     },
     btn: {
         marginTop: "1rem"

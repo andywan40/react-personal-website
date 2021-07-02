@@ -19,11 +19,10 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { styles } from '../styles/ContactStyles';
 
-function Contact(props) {
+function Contact({classes}) {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const { classes } = props;
     const alertSuccess = () => toast.success("I will get back to you soon. Thank you ! 🦄");
     const alertFailure = () => toast.error("Something went wrong. Please try again later!");
     const showLoadingMessage = () => toast.info("Submitting....", {autoClose: false});
@@ -67,7 +66,6 @@ function Contact(props) {
                     <Grid item xs={10} md={8} lg={6} xl={5} >
                         <div className={classes.bg}>
                             <form className={classes.form} onSubmit={handleSubmit}>
-                                <h1 className={classes.title}>Get In Touch</h1>
                                 <div className={classes.formDiv}>
                                     <FormControl className={classes.formControl}>
                                         <InputLabel className={classes.label} htmlFor="nameInput">Name</InputLabel>
@@ -100,9 +98,9 @@ function Contact(props) {
                                     <TextField
                                         className={classes.message}
                                         id="message"
-                                        label="Message"
+                                        label="MESSAGE"
                                         multiline
-                                        rows={10}
+                                        rows={15}
                                         value={message}
                                         onChange={e => handleChange(e, setMessage)}
                                         placeholder="Contact me...."

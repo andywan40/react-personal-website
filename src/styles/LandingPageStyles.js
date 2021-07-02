@@ -13,33 +13,13 @@ export const styles = {
         backgroundRepeat: "no-repeat",
         backgroundSize: "125vw 150vh"
     },
-    top: {
-        display: "flex",
-        justifyContent: "flex-end",
-        height: "10%"
-    },
-    button: {
-        marginRight: "2rem",
-        color: "#d1cbcb",
-        " &:hover ": {
-            color: "#c9c1c1",
-            textShadow: "0.3px 0.3px #d4d2d2",
-            textDecoration: "underline"
-        }
-    },
-    titleBtn: {
-        marginRight: "1250px",
-        color: "#d1cbcb",
-        fontFamily: `Cinzel, serif`,
-        fontSize: "1.3rem"
-    },
     grid: {
         marginTop: "10rem",
     },
     item: {
         marginRight: "15rem",
         marginBottom: "0",
-        fontFamily: "'Permanent Marker', cursive",
+        fontFamily: "'Cantarell', sans-serif",
         fontSize: "1.5rem !important",
         color: "#ccc2c2",
          [sizes.down("sp")]: {
@@ -51,6 +31,7 @@ export const styles = {
         marginTop: "0",
         marginBottom: "0",
         fontSize: "3rem !important",
+        fontFamily: "'Cantarell', sans-serif",
         [sizes.down("sp")]: {
             fontSize: "2.3rem !important"
         },

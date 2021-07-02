@@ -7,15 +7,17 @@ export const styles = {
     textArea: {
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "center"
-    },
-    text: {
-        color: 'white',
-        fontSize: "0.8rem",
-        marginTop: 0,
-        marginBottom: 0,
-        marginRight: "0.5rem",
-        marginLeft: "0.5rem"
+        alignItems: "center",
+        "& p":{
+            color: 'white',
+            fontSize: "0.8rem",
+            marginTop: 0,
+            marginBottom: 0,
+            marginRight: "0.5rem",
+            marginLeft: "0.5rem",
+            fontFamily: "'Cantarell', sans-serif",
+            textTransform: "uppercase"
+        }
     },
     link:{
         textDecoration: "none",
