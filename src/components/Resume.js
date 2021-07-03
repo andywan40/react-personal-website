@@ -28,19 +28,23 @@ const resumeSections = [
         children: "Taipei,Taiwan / Oct, 2020 - Current",
       },
       {
-        text: "Designed a new and robust front end structure with Vueand Vuex and developed reusable UI components for future use",
+        text: "Learned Vue.js within a month and designed and implemented various front-end components.",
         important: false,
       },
       {
-        text: "Led frontend projects of internal web applications for banks and insurance companies",
+        text: "Contributed to an in-house UI library by creating reusable UI components that increased development efficiency by 30%",
         important: false,
       },
       {
+        text: "Served as a bridge between frontend, ui/ux designers and backend developers",
+        important: false,
+      },
+      {
+        text: "Led the frontend aspect of a project for a client with over 200 users spanning multiple applications",
+        important: false,
+      },
+       {
         text: "Added new API endpoints to improve UI experience and overall app functionality",
-        important: false,
-      },
-      {
-        text: "Developed reusable functions and integrated them with existing Javascript libraries to streamline the frontend development process",
         important: false,
       },
       {
@@ -49,11 +53,11 @@ const resumeSections = [
         children: "Taipei,Taiwan / Oct, 2020 - Current",
       },
       {
-        text: "Main focus was to create a robust front end structure with React and Redux that fits well with existing Spring Boot projects and create reusable components for future use",
+        text: "Designed and implemented a feature-rich user interface using React and Redux to handle and display data",
         important: false,
       },
       {
-        text: "Designed and implemented new project structure and architecture",
+        text: "Developed reusable functions and integrated them with existing Javascript libraries to streamline the frontend development process and decrease development time by over 40%",
         important: false,
       },
     ],
@@ -66,7 +70,7 @@ const resumeSections = [
       {
         text: "Languages:",
         important: true,
-        children: "Javascript, HTML, CSS, Python, Java, SQL",
+        children: "Javascript, HTML, CSS, Python, SQL",
       },
       {
         text: "Technologies:",

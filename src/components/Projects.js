@@ -14,7 +14,7 @@ const projects = [
     title: "WANNABUY",
     desc: [
       "Designed for online shoppers to better keep track of interested items",
-      "Front end built with HTML, CSS, JavaSCript, JQUery,BootStrap",
+      "Front end built with HTML, CSS, JavaScript, jQuery,BootStrap",
       "Back end built with Node.js, Express, Mongoose and connected to MongoDB",
     ],
     link: "https://powerful-journey-37111.herokuapp.com/",
